@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logoJobored {
+width: 99px;
+height: 36px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.02em;
+color: #232134;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    width: 30px;
+    height: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 162;
+  }
+}
+
+.App-header {
+/* Top Bar */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 162px;
+gap: 308px;
+isolation: isolate;
+
+position: absolute;
+width: 1440px;
+height: 84px;
+left: 0px;
+top: 0px;
+
+/* White */
+
+background: #FFFFFF;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
